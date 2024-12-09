@@ -10,24 +10,13 @@ namespace Unit2
     {
         static void Main(string[] args)
         {
-            int a = 5;
-            int b = 7;
 
-            if (b > a)
-            {
 
-                Console.WriteLine($"число {b} больше числа {a}");
-            }
+            int[] numbers = new int[5];
+            int[] numbers2 = {5, 6, 7, 8, 9};
+            numbers2[4] = 15;
+            Console.WriteLine(numbers2[4]);
 
-            else if (b < a)
-            {
-                Console.WriteLine($"число {b} меньше числа {a}");
-            }
-            else
-
-            {
-                Console.WriteLine($"число {b} равно {a}");
-            }
         }
     }
 }
