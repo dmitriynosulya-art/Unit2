@@ -10,27 +10,26 @@ namespace Unit2
     {
         static void Main(string[] args)
         {
-            int a = 3;
-            int b;
-            b = 4;
+            int a = 5;
+            int b = 7;
 
-            byte b;
-            sbyte sb;
-            short s;
-            ushort us;
-            int i;
-            uint ui;
-            long l;
-            ulong ul;
+            if (b > a)
+            {
 
-            float f. = 6.2f;
-            double d. = 5.7;
+                Console.WriteLine($"число {b} больше числа {a}");
+            }
 
-            char c.= '5';
+            else if (b < a)
+            {
+                Console.WriteLine($"число {b} меньше числа {a}");
+            }
+            else
 
-            string str = "Hello world";
-
-            bool bl;
+            {
+                Console.WriteLine($"число {b} равно {a}");
+            }
         }
     }
 }
+
+
