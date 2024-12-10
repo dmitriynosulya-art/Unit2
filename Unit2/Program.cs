@@ -10,13 +10,21 @@ namespace Unit2
     {
         static void Main(string[] args)
         {
-
-
-            int[] numbers = new int[5];
-            int[] numbers2 = {5, 6, 7, 8, 9};
-            numbers2[4] = 15;
-            Console.WriteLine(numbers2[4]);
-
+            void HelloWorld()
+            {
+                Console.WriteLine("Hello World");
+            }
+            void Sum(int a, int b) 
+            {
+                int sum = a + b;
+                Console.WriteLine(sum);
+            }
+            void human(string name, int age)
+            {
+                Console.WriteLine($"{name}, {age}");
+            }
+            human("Дмитрий", 33);
+           
         }
     }
 }
